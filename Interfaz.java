@@ -124,6 +124,8 @@ public class Interfaz extends JFrame {
 		imagen.setBounds(5, 5, 419, 288);
 		contentPane.add(imagen);
 		
+		this.setLocationRelativeTo(null);
+		this.setExtendedState(MAXIMIZED_BOTH);
 		this.pack();
 	}
 	public void mostrarInterfaz() {

@@ -17,9 +17,9 @@ public class Cliente{
 			ps=new PrintStream(cliente.getOutputStream()); //Enviamos informacion al servidor.
 			
 			DataInputStream entrada= new DataInputStream(System.in);
-			int i=0;
-			while(i<2) {
-			System.out.println("Introduce el nombre de la carta: "); 
+			int i=1;
+			while(i<3) {
+			System.out.println("Introduce el nombre de la carta numero " + i + " a valorar: "); 
 			String nombre =entrada.readLine(); 
 		
 			System.out.println("Introduce la valoracion de: " + nombre); 

@@ -59,11 +59,15 @@ public class Interfaz extends JFrame {
 		tx_nombre.setBounds(165, 148, 86, 20);
 		contentPane.add(tx_nombre);
 		tx_nombre.setColumns(10);
+		tx_nombre.setEditable(false);
+		tx_nombre.setBackground(Color.YELLOW);
 		
 		tx_fisico = new JTextField();
 		tx_fisico.setBounds(261, 226, 35, 20);
 		contentPane.add(tx_fisico);
 		tx_fisico.setColumns(10);
+		tx_fisico.setEditable(false);
+		tx_fisico.setBackground(Color.YELLOW);
 		
 		JLabel lblRitmo = new JLabel("RITMO");
 		lblRitmo.setBounds(128, 179, 46, 14);
@@ -93,26 +97,36 @@ public class Interfaz extends JFrame {
 		tx_ritmo.setBounds(165, 176, 30, 20);
 		contentPane.add(tx_ritmo);
 		tx_ritmo.setColumns(10);
+		tx_ritmo.setEditable(false);
+		tx_ritmo.setBackground(Color.YELLOW);
 		
 		tx_tiro = new JTextField();
 		tx_tiro.setBounds(165, 204, 30, 20);
 		contentPane.add(tx_tiro);
 		tx_tiro.setColumns(10);
+		tx_tiro.setEditable(false);
+		tx_tiro.setBackground(Color.YELLOW);
 		
 		tx_pase = new JTextField();
 		tx_pase.setBounds(165, 229, 30, 20);
 		contentPane.add(tx_pase);
 		tx_pase.setColumns(10);
+		tx_pase.setEditable(false);
+		tx_pase.setBackground(Color.YELLOW);
 		
 		tx_regate = new JTextField();
 		tx_regate.setBounds(261, 176, 35, 20);
 		contentPane.add(tx_regate);
 		tx_regate.setColumns(10);
+		tx_regate.setEditable(false);
+		tx_regate.setBackground(Color.YELLOW);
 		
 		tx_defensa = new JTextField();
 		tx_defensa.setBounds(261, 201, 35, 20);
 		contentPane.add(tx_defensa);
 		tx_defensa.setColumns(10);
+		tx_defensa.setEditable(false);
+		tx_defensa.setBackground(Color.YELLOW);
 		
 		tx_valoracion = new JTextField();
 		tx_valoracion.setForeground(Color.BLUE);
@@ -120,6 +134,9 @@ public class Interfaz extends JFrame {
 		tx_valoracion.setBounds(135, 45, 65, 58);
 		contentPane.add(tx_valoracion);
 		tx_valoracion.setColumns(10);
+		tx_valoracion.setEditable(false);
+		tx_valoracion.setBackground(Color.YELLOW);
+		
 		JLabel imagen = new JLabel(new ImageIcon(imagenCarta));
 		imagen.setBounds(5, 5, 419, 288);
 		contentPane.add(imagen);
